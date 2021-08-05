@@ -10,7 +10,17 @@
 npm install --save currency_converter
 ```
 
+## Screenshot
+![Alt text](screenshot.PNG)
+
+
 ## Usage
+The component accept the following props:
+- ```curriencies```: an object with two keys: ```primary``` and ```list```. primary refers to the key of primary currency in the list; and list contains a myraid of currencies/goods, represented by key-object with properties including ```name``` and ```value```
+- ```customClassess```: an object that allows adding custom classes and styling to the html tag with the following keys ``` body, inputText, outputText, clock, input, options, button, formula ``` 
+- ```texts ```: an object that contains texts, allowing localization. Changes including ``` placeholder, equals, switch, timeformat ```
+- ```decimal```: rounding decimal
+
 
 ```jsx
 import React from 'react'
