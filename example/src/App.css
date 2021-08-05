@@ -1,0 +1,55 @@
+
+
+
+/* Custom Transition */
+.currencyBody {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    padding: 10px;
+    width: min( 700px, 50vw);
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0,0,255,0.02);
+}
+.currencyBody:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.14), 0 10px 10px rgba(0,0,0,0.22);
+}
+.textInput, .textOutput {
+    float: left;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    color: darkblue;
+}
+.currencyBody input {
+    width: 95%;
+}
+.currencyBody input:invalid {
+    border-color: red;
+}
+.currencyBody select {
+    width: 40%;
+    background-color: #1E90FF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.currencyBody button {
+    background-color: #1E90FF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.currencyBody button:active {
+    background-color:	#6495ED
+}
+.currencyBodyClock {
+    display: inline;
+}
+.currentBodyFormula {
+    font-weight: bold;
+}

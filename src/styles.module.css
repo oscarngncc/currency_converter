@@ -1,9 +1,63 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+
+* {
+  --inputFont-Size: 12px;
+  --input-padding: 5px;
+}
+
+
+.currencyConverter {
+  margin: 5px;
+}
+
+
+.inputHeader {
+  color: gray;
+  font-size: 15px;
+}
+
+
+.convertedResult {
+  font-size: 25px;
+  margin: 5px 0px;
+}
+
+
+.clock {
+  font-size: 13px;
+  color: darkgray;
+}
+
+.currencyInput {
+  padding: 5px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+.currencyInput::-webkit-outer-spin-button,
+.currencyInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.currencyInput[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.currencyOptions {
+  padding: var(--input-padding);
+  font-size: var(--inputFont-Size);
+  margin: 5px;
+}
+
+.currencySwitch {
+  padding: var(--input-padding);
+  font-size: var(--inputFont-Size);
+}
+
+.currencyFormula {
+  font-size: 10px;
+  color: darkgray;
 }
